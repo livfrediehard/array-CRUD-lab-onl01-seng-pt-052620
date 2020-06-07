@@ -1,4 +1,5 @@
 def create_an_empty_array
+<<<<<<< HEAD
   array = []
 end
 
@@ -8,6 +9,17 @@ end
 
 def add_element_to_end_of_array(array, element)
   array.push("arrays!")
+=======
+  create_an_empty_array = []
+end
+
+def create_an_array
+  create_an_array = ["Tom", "Red", "Jeff", "Sam"]
+end
+
+def add_element_to_end_of_array(array, element)
+  add_element_to_end_of_array.push("arrays!")
+>>>>>>> 2fc494c339d3a743b33f39d55f5eca9844fce177
 end
 
 def add_element_to_start_of_array(array, element)
